@@ -7,10 +7,13 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 1px 10px;
 }
 
 .title {
   background: #e3f4ff;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 .content {
@@ -19,9 +22,18 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.card > * {
+  padding: 10px;
+  margin-bottom: 10px;
 }
